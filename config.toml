@@ -1,0 +1,18 @@
+# This is the Application config file
+
+title = "Application Configuration"
+
+[owner]
+name = "James NixonInnes"
+email = "nixoninnes@echonet.io"
+
+[server]
+host = "127.0.0.1"
+port = 8000
+
+[logging]
+level = "DEBUG"
+dir = "logs"
+
+    [logging.AnotherPackage]
+    level = "ERROR"
